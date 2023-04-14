@@ -30,7 +30,7 @@ function Post({handlePostView, title}:IPropsPost) {
               </div>
             </div>
             <div className="content">
-              <textarea value='Hello World !!!'></textarea>
+              <input type='text' />
               <div>
                 <BsEnvelopeAt size={24} color='#b6aeae'/>
                 <BsEmojiSmile size={24} color='#b6aeae'/>
