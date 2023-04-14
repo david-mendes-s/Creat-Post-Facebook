@@ -107,3 +107,9 @@
   button.create-post:hover{
     filter: brightness(0.9);
   }
+
+@media(max-width: 580px){
+  .container {
+    width: 420px;
+  }
+}
