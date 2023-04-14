@@ -1,0 +1,109 @@
+.container {
+    background: #fff;
+    width: 480px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  
+  .container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .section-data-users{
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-data-users .avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #3498db;
+    margin-right: 12px;
+  }
+  
+  .section-data-users .information-users{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-data-users .information-users button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    margin-top: 4px;
+    background: #eeecec;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 4px;
+    transition: 0.5s ease;
+  }
+
+.section-data-users .information-users button:hover {
+  filter: brightness(0.9);
+}
+  .section-title {
+    padding: 12px;
+    border-bottom: 0.5px solid #efefef;
+  }
+  
+  .content textarea {
+    width: 100%;
+    height: 120px;
+    margin: 10px 0px;
+    border: 0;
+    padding: 20px 0;
+  }
+  
+  .content div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .pg-content {
+    padding: 16px 24px;
+  }
+  
+  .add-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 8px;
+    border: 1px solid #b6aeae;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #b6aeae;
+    margin: 8px 0 8px;
+  }
+  
+  svg {
+    cursor: pointer;
+  }
+  
+  .add-tools div svg{
+    margin-left: 14px;
+    
+  }
+  
+  button.create-post {
+    margin: 12px 0;
+    width: 100%;
+    height: 45px;
+    border: 0;
+    background: #3498db;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+  }
+
+  button.create-post:hover{
+    filter: brightness(0.9);
+  }
