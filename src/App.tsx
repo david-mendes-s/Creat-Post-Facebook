@@ -19,7 +19,7 @@ const listOptions:IListOptions[] = [
   {
       id: 1,
       title: 'Public',
-      description: 'Anyone on or of Facebook',
+      description: 'Anyone on Facebook',
       icon: <BsGlobeAmericas size={28}/>,
       active: 'active',
       checked: 'checked'

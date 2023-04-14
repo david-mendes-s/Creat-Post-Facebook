@@ -127,3 +127,9 @@ ul li div.check-list{
 ul li div.check-list.checked  {
     background: #3498db;
 }
+
+@media(max-width: 580px){
+    .content-information p:last-child{
+        font-size: 12px;
+    }
+  }
